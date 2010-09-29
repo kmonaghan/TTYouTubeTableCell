@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* YouTubeCellsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 507}}";
+			sepNavSelRange = "{1270, 0}";
+			sepNavVisRange = "{299, 1079}";
+		};
+	};
+	1D3623250D0F684500981E51 /* YouTubeCellsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 702}}";
+			sepNavSelRange = "{1270, 0}";
+			sepNavVisRange = "{556, 1219}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* YouTubeCells */ = {
+		activeExec = 0;
+		executables = (
+			CB2469FE1253C74900E1F738 /* YouTubeCells */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CB2469FE1253C74900E1F738 /* YouTubeCells */;
+		activeSDKPreference = iphoneos4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* YouTubeCells */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* YouTubeCells */,
+		);
+		codeSenseManager = CB246A0E1253C74D00E1F738 /* Code sense */;
+		executables = (
+			CB2469FE1253C74900E1F738 /* YouTubeCells */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					537,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					649,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					609,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307480393;
+			PBXWorkspaceStateSaveDate = 307480393;
+		};
+		perUserProjectItems = {
+			CB246C2B1253D67200E1F738 /* PBXTextBookmark */ = CB246C2B1253D67200E1F738 /* PBXTextBookmark */;
+			CB246C991253D7E800E1F738 /* PlistBookmark */ = CB246C991253D7E800E1F738 /* PlistBookmark */;
+			CB246CC11253D99F00E1F738 /* PBXTextBookmark */ = CB246CC11253D99F00E1F738 /* PBXTextBookmark */;
+			CB246CD11253DAB300E1F738 /* PBXTextBookmark */ = CB246CD11253DAB300E1F738 /* PBXTextBookmark */;
+			CB246D141253EA1100E1F738 /* PBXTextBookmark */ = CB246D141253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D151253EA1100E1F738 /* PBXTextBookmark */ = CB246D151253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D161253EA1100E1F738 /* PBXTextBookmark */ = CB246D161253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D171253EA1100E1F738 /* PBXTextBookmark */ = CB246D171253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D181253EA1100E1F738 /* PBXTextBookmark */ = CB246D181253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D191253EA1100E1F738 /* PBXTextBookmark */ = CB246D191253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D1A1253EA1100E1F738 /* PBXTextBookmark */ = CB246D1A1253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D1B1253EA1100E1F738 /* PBXTextBookmark */ = CB246D1B1253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D1C1253EA1100E1F738 /* PBXTextBookmark */ = CB246D1C1253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D1D1253EA1100E1F738 /* PBXTextBookmark */ = CB246D1D1253EA1100E1F738 /* PBXTextBookmark */;
+			CB246D201253EC0300E1F738 /* PBXTextBookmark */ = CB246D201253EC0300E1F738 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CB246A0D1253C74D00E1F738 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 354}}";
+			sepNavSelRange = "{355, 0}";
+			sepNavVisRange = "{0, 399}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* YouTubeCells_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 354}}";
+			sepNavSelRange = "{222, 0}";
+			sepNavVisRange = "{0, 222}";
+		};
+	};
+	8D1107310486CEB800E47090 /* YouTubeCells-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{137, 75}, {1140, 803}}";
+		};
+	};
+	CB2469FE1253C74900E1F738 /* YouTubeCells */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = YouTubeCells;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CB246A0D1253C74D00E1F738 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CB246A0E1253C74D00E1F738 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CB246AB01253CAB500E1F738 /* YoutubeTextItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 507}}";
+			sepNavSelRange = "{1261, 0}";
+			sepNavVisRange = "{290, 1156}";
+		};
+	};
+	CB246AB11253CAB500E1F738 /* YoutubeTextItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 962}}";
+			sepNavSelRange = "{1261, 0}";
+			sepNavVisRange = "{547, 1068}";
+		};
+	};
+	CB246AB21253CAB500E1F738 /* YoutubeTableCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 533}}";
+			sepNavSelRange = "{1262, 0}";
+			sepNavVisRange = "{416, 1045}";
+		};
+	};
+	CB246AB31253CAB500E1F738 /* YoutubeTableCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 1235}}";
+			sepNavSelRange = "{1320, 38}";
+			sepNavVisRange = "{884, 520}";
+		};
+	};
+	CB246AB71253CB5500E1F738 /* YouTubeDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 429}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRange = "{0, 1260}";
+		};
+	};
+	CB246AB81253CB5500E1F738 /* YouTubeDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 572}}";
+			sepNavSelRange = "{1238, 0}";
+			sepNavVisRange = "{524, 1177}";
+		};
+	};
+	CB246ACE1253CD5B00E1F738 /* YouTubeTestController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 468}}";
+			sepNavSelRange = "{1268, 0}";
+			sepNavVisRange = "{163, 1174}";
+		};
+	};
+	CB246ACF1253CD5B00E1F738 /* YouTubeTestController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 949}}";
+			sepNavSelRange = "{1483, 0}";
+			sepNavVisRange = "{104, 520}";
+		};
+	};
+	CB246C2B1253D67200E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246C2C1253D67200E1F738 /* UIViewControllerAdditions.m */;
+		name = "UIViewControllerAdditions.m: 301";
+		rLen = 0;
+		rLoc = 10648;
+		rType = 0;
+		vrLen = 980;
+		vrLoc = 10188;
+	};
+	CB246C2C1253D67200E1F738 /* UIViewControllerAdditions.m */ = {
+		isa = PBXFileReference;
+		name = UIViewControllerAdditions.m;
+		path = /Projects/three20/src/Three20UICommon/Sources/UIViewControllerAdditions.m;
+		sourceTree = "<absolute>";
+	};
+	CB246C991253D7E800E1F738 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* YouTubeCells-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Projects/YouTubeCells/YouTubeCells-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CB246CC11253D99F00E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 355;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 0;
+	};
+	CB246CD11253DAB300E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* YouTubeCells_Prefix.pch */;
+		name = "YouTubeCells_Prefix.pch: 10";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 222;
+		vrLoc = 0;
+	};
+	CB246D141253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB11253CAB500E1F738 /* YoutubeTextItem.m */;
+		name = "YoutubeTextItem.m: 30";
+		rLen = 0;
+		rLoc = 1261;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 547;
+	};
+	CB246D151253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB81253CB5500E1F738 /* YouTubeDataSource.m */;
+		name = "YouTubeDataSource.m: 30";
+		rLen = 0;
+		rLoc = 1257;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 524;
+	};
+	CB246D161253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB01253CAB500E1F738 /* YoutubeTextItem.h */;
+		name = "YoutubeTextItem.h: 30";
+		rLen = 0;
+		rLoc = 1261;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 290;
+	};
+	CB246D171253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB21253CAB500E1F738 /* YoutubeTableCell.h */;
+		name = "YoutubeTableCell.h: 30";
+		rLen = 0;
+		rLoc = 1262;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 416;
+	};
+	CB246D181253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB31253CAB500E1F738 /* YoutubeTableCell.m */;
+		name = "YoutubeTableCell.m: 30";
+		rLen = 0;
+		rLoc = 1262;
+		rType = 0;
+		vrLen = 1170;
+		vrLoc = 548;
+	};
+	CB246D191253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* YouTubeCellsAppDelegate.h */;
+		name = "YouTubeCellsAppDelegate.h: 30";
+		rLen = 0;
+		rLoc = 1270;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 299;
+	};
+	CB246D1A1253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* YouTubeCellsAppDelegate.m */;
+		name = "YouTubeCellsAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 1270;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 556;
+	};
+	CB246D1B1253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246ACE1253CD5B00E1F738 /* YouTubeTestController.h */;
+		name = "YouTubeTestController.h: 30";
+		rLen = 0;
+		rLoc = 1268;
+		rType = 0;
+		vrLen = 1174;
+		vrLoc = 163;
+	};
+	CB246D1C1253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246ACF1253CD5B00E1F738 /* YouTubeTestController.m */;
+		name = "YouTubeTestController.m: 6";
+		rLen = 28;
+		rLoc = 109;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 0;
+	};
+	CB246D1D1253EA1100E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB71253CB5500E1F738 /* YouTubeDataSource.h */;
+		name = "YouTubeDataSource.h: 29";
+		rLen = 0;
+		rLoc = 1262;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 139;
+	};
+	CB246D201253EC0300E1F738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB246AB71253CB5500E1F738 /* YouTubeDataSource.h */;
+		name = "YouTubeDataSource.h: 6";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 0;
+	};
+}

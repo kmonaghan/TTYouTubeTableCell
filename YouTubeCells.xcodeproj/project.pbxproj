@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* YouTubeCellsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* YouTubeCellsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		CB246AB41253CAB500E1F738 /* YoutubeTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB246AB11253CAB500E1F738 /* YoutubeTextItem.m */; };
+		CB246AB51253CAB500E1F738 /* YoutubeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB246AB31253CAB500E1F738 /* YoutubeTableCell.m */; };
+		CB246AB91253CB5500E1F738 /* YouTubeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CB246AB81253CB5500E1F738 /* YouTubeDataSource.m */; };
+		CB246AD01253CD5B00E1F738 /* YouTubeTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB246ACF1253CD5B00E1F738 /* YouTubeTestController.m */; };
+		CB246B691253D0BD00E1F738 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B661253D0BA00E1F738 /* libThree20.a */; };
+		CB246B6A1253D0BE00E1F738 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B421253D0BA00E1F738 /* libThree20Core.a */; };
+		CB246B6B1253D0BE00E1F738 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B481253D0BA00E1F738 /* libThree20Network.a */; };
+		CB246B6C1253D0BF00E1F738 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B4E1253D0BA00E1F738 /* libThree20Style.a */; };
+		CB246B6D1253D0BF00E1F738 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B601253D0BA00E1F738 /* libThree20UI.a */; };
+		CB246B6E1253D0C000E1F738 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B541253D0BA00E1F738 /* libThree20UICommon.a */; };
+		CB246B6F1253D0C300E1F738 /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246B5A1253D0BA00E1F738 /* libThree20UINavigator.a */; };
+		CB246BDA1253D17900E1F738 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB246BD91253D17900E1F738 /* QuartzCore.framework */; };
+		CB246C911253D7B100E1F738 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB246C901253D7B100E1F738 /* Three20.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB246B411253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B2A1253D0BA00E1F738 /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20Core.a */;
+			remoteInfo = Three20Core;
+		};
+		CB246B431253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B2A1253D0BA00E1F738 /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* CoreUnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B471253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B2D1253D0BA00E1F738 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20Network.a */;
+			remoteInfo = Three20Network;
+		};
+		CB246B491253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B2D1253D0BA00E1F738 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B4D1253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B301253D0BA00E1F738 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20Style.a */;
+			remoteInfo = Three20Style;
+		};
+		CB246B4F1253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B301253D0BA00E1F738 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B531253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B331253D0BA00E1F738 /* Three20UICommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20UICommon.a */;
+			remoteInfo = Three20UICommon;
+		};
+		CB246B551253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B331253D0BA00E1F738 /* Three20UICommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B591253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B361253D0BA00E1F738 /* Three20UINavigator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20UINavigator.a */;
+			remoteInfo = Three20UINavigator;
+		};
+		CB246B5B1253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B361253D0BA00E1F738 /* Three20UINavigator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B5F1253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B391253D0BA00E1F738 /* Three20UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20UI.a */;
+			remoteInfo = Three20UI;
+		};
+		CB246B611253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B391253D0BA00E1F738 /* Three20UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B651253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B3C1253D0BA00E1F738 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
+			remoteInfo = Three20;
+		};
+		CB246B671253D0BA00E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B3C1253D0BA00E1F738 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* UnitTests.octest */;
+			remoteInfo = UnitTests;
+		};
+		CB246B741253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B2A1253D0BA00E1F738 /* Three20Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20Core */;
+			remoteInfo = Three20Core;
+		};
+		CB246B761253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B331253D0BA00E1F738 /* Three20UICommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20UICommon */;
+			remoteInfo = Three20UICommon;
+		};
+		CB246B781253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B391253D0BA00E1F738 /* Three20UI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20UI */;
+			remoteInfo = Three20UI;
+		};
+		CB246B7A1253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B2D1253D0BA00E1F738 /* Three20Network.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20Network */;
+			remoteInfo = Three20Network;
+		};
+		CB246B7C1253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B3C1253D0BA00E1F738 /* Three20.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteInfo = Three20;
+		};
+		CB246B7E1253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B301253D0BA00E1F738 /* Three20Style.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20Style */;
+			remoteInfo = Three20Style;
+		};
+		CB246B801253D0E700E1F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB246B361253D0BA00E1F738 /* Three20UINavigator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20UINavigator */;
+			remoteInfo = Three20UINavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* YouTubeCellsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeCellsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* YouTubeCellsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeCellsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* YouTubeCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* YouTubeCells_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeCells_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* YouTubeCells-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YouTubeCells-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CB246AB01253CAB500E1F738 /* YoutubeTextItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeTextItem.h; sourceTree = "<group>"; };
+		CB246AB11253CAB500E1F738 /* YoutubeTextItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeTextItem.m; sourceTree = "<group>"; };
+		CB246AB21253CAB500E1F738 /* YoutubeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeTableCell.h; sourceTree = "<group>"; };
+		CB246AB31253CAB500E1F738 /* YoutubeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeTableCell.m; sourceTree = "<group>"; };
+		CB246AB71253CB5500E1F738 /* YouTubeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeDataSource.h; sourceTree = "<group>"; };
+		CB246AB81253CB5500E1F738 /* YouTubeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeDataSource.m; sourceTree = "<group>"; };
+		CB246ACE1253CD5B00E1F738 /* YouTubeTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeTestController.h; sourceTree = "<group>"; };
+		CB246ACF1253CD5B00E1F738 /* YouTubeTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeTestController.m; sourceTree = "<group>"; };
+		CB246B2A1253D0BA00E1F738 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246B2D1253D0BA00E1F738 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246B301253D0BA00E1F738 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = ../three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246B331253D0BA00E1F738 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = ../three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246B361253D0BA00E1F738 /* Three20UINavigator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UINavigator.xcodeproj; path = ../three20/src/Three20UINavigator/Three20UINavigator.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246B391253D0BA00E1F738 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246B3C1253D0BA00E1F738 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CB246BD91253D17900E1F738 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB246C901253D7B100E1F738 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CB246B691253D0BD00E1F738 /* libThree20.a in Frameworks */,
+				CB246B6A1253D0BE00E1F738 /* libThree20Core.a in Frameworks */,
+				CB246B6B1253D0BE00E1F738 /* libThree20Network.a in Frameworks */,
+				CB246B6C1253D0BF00E1F738 /* libThree20Style.a in Frameworks */,
+				CB246B6D1253D0BF00E1F738 /* libThree20UI.a in Frameworks */,
+				CB246B6E1253D0C000E1F738 /* libThree20UICommon.a in Frameworks */,
+				CB246B6F1253D0C300E1F738 /* libThree20UINavigator.a in Frameworks */,
+				CB246BDA1253D17900E1F738 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB246AB61253CB5500E1F738 /* DataSource */,
+				CB246AAF1253CAB500E1F738 /* Table Cells */,
+				1D3623240D0F684500981E51 /* YouTubeCellsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* YouTubeCellsAppDelegate.m */,
+				CB246ACE1253CD5B00E1F738 /* YouTubeTestController.h */,
+				CB246ACF1253CD5B00E1F738 /* YouTubeTestController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* YouTubeCells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CB246A5E1253C92D00E1F738 /* Dependencies */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* YouTubeCells_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB246C901253D7B100E1F738 /* Three20.bundle */,
+				8D1107310486CEB800E47090 /* YouTubeCells-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				CB246BD91253D17900E1F738 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB246A5E1253C92D00E1F738 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B2A1253D0BA00E1F738 /* Three20Core.xcodeproj */,
+				CB246B2D1253D0BA00E1F738 /* Three20Network.xcodeproj */,
+				CB246B301253D0BA00E1F738 /* Three20Style.xcodeproj */,
+				CB246B331253D0BA00E1F738 /* Three20UICommon.xcodeproj */,
+				CB246B361253D0BA00E1F738 /* Three20UINavigator.xcodeproj */,
+				CB246B391253D0BA00E1F738 /* Three20UI.xcodeproj */,
+				CB246B3C1253D0BA00E1F738 /* Three20.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		CB246AAF1253CAB500E1F738 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB246AB01253CAB500E1F738 /* YoutubeTextItem.h */,
+				CB246AB11253CAB500E1F738 /* YoutubeTextItem.m */,
+				CB246AB21253CAB500E1F738 /* YoutubeTableCell.h */,
+				CB246AB31253CAB500E1F738 /* YoutubeTableCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		CB246AB61253CB5500E1F738 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CB246AB71253CB5500E1F738 /* YouTubeDataSource.h */,
+				CB246AB81253CB5500E1F738 /* YouTubeDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		CB246B2B1253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B421253D0BA00E1F738 /* libThree20Core.a */,
+				CB246B441253D0BA00E1F738 /* CoreUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB246B2E1253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B481253D0BA00E1F738 /* libThree20Network.a */,
+				CB246B4A1253D0BA00E1F738 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB246B311253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B4E1253D0BA00E1F738 /* libThree20Style.a */,
+				CB246B501253D0BA00E1F738 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB246B341253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B541253D0BA00E1F738 /* libThree20UICommon.a */,
+				CB246B561253D0BA00E1F738 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB246B371253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B5A1253D0BA00E1F738 /* libThree20UINavigator.a */,
+				CB246B5C1253D0BA00E1F738 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB246B3A1253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B601253D0BA00E1F738 /* libThree20UI.a */,
+				CB246B621253D0BA00E1F738 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB246B3D1253D0BA00E1F738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB246B661253D0BA00E1F738 /* libThree20.a */,
+				CB246B681253D0BA00E1F738 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* YouTubeCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YouTubeCells" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB246B751253D0E700E1F738 /* PBXTargetDependency */,
+				CB246B771253D0E700E1F738 /* PBXTargetDependency */,
+				CB246B791253D0E700E1F738 /* PBXTargetDependency */,
+				CB246B7B1253D0E700E1F738 /* PBXTargetDependency */,
+				CB246B7D1253D0E700E1F738 /* PBXTargetDependency */,
+				CB246B7F1253D0E700E1F738 /* PBXTargetDependency */,
+				CB246B811253D0E700E1F738 /* PBXTargetDependency */,
+			);
+			name = YouTubeCells;
+			productName = YouTubeCells;
+			productReference = 1D6058910D05DD3D006BFB54 /* YouTubeCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Crayons and Brown Paper";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "YouTubeCells" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB246B3D1253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B3C1253D0BA00E1F738 /* Three20.xcodeproj */;
+				},
+				{
+					ProductGroup = CB246B2B1253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B2A1253D0BA00E1F738 /* Three20Core.xcodeproj */;
+				},
+				{
+					ProductGroup = CB246B2E1253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B2D1253D0BA00E1F738 /* Three20Network.xcodeproj */;
+				},
+				{
+					ProductGroup = CB246B311253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B301253D0BA00E1F738 /* Three20Style.xcodeproj */;
+				},
+				{
+					ProductGroup = CB246B3A1253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B391253D0BA00E1F738 /* Three20UI.xcodeproj */;
+				},
+				{
+					ProductGroup = CB246B341253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B331253D0BA00E1F738 /* Three20UICommon.xcodeproj */;
+				},
+				{
+					ProductGroup = CB246B371253D0BA00E1F738 /* Products */;
+					ProjectRef = CB246B361253D0BA00E1F738 /* Three20UINavigator.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* YouTubeCells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB246B421253D0BA00E1F738 /* libThree20Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Core.a;
+			remoteRef = CB246B411253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B441253D0BA00E1F738 /* CoreUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreUnitTests.octest;
+			remoteRef = CB246B431253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B481253D0BA00E1F738 /* libThree20Network.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Network.a;
+			remoteRef = CB246B471253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B4A1253D0BA00E1F738 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = CB246B491253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B4E1253D0BA00E1F738 /* libThree20Style.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Style.a;
+			remoteRef = CB246B4D1253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B501253D0BA00E1F738 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = CB246B4F1253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B541253D0BA00E1F738 /* libThree20UICommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UICommon.a;
+			remoteRef = CB246B531253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B561253D0BA00E1F738 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = CB246B551253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B5A1253D0BA00E1F738 /* libThree20UINavigator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UINavigator.a;
+			remoteRef = CB246B591253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B5C1253D0BA00E1F738 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = CB246B5B1253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B601253D0BA00E1F738 /* libThree20UI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UI.a;
+			remoteRef = CB246B5F1253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B621253D0BA00E1F738 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = CB246B611253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B661253D0BA00E1F738 /* libThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20.a;
+			remoteRef = CB246B651253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB246B681253D0BA00E1F738 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = CB246B671253D0BA00E1F738 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB246C911253D7B100E1F738 /* Three20.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* YouTubeCellsAppDelegate.m in Sources */,
+				CB246AB41253CAB500E1F738 /* YoutubeTextItem.m in Sources */,
+				CB246AB51253CAB500E1F738 /* YoutubeTableCell.m in Sources */,
+				CB246AB91253CB5500E1F738 /* YouTubeDataSource.m in Sources */,
+				CB246AD01253CD5B00E1F738 /* YouTubeTestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB246B751253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Core;
+			targetProxy = CB246B741253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+		CB246B771253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UICommon;
+			targetProxy = CB246B761253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+		CB246B791253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UI;
+			targetProxy = CB246B781253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+		CB246B7B1253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Network;
+			targetProxy = CB246B7A1253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+		CB246B7D1253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20;
+			targetProxy = CB246B7C1253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+		CB246B7F1253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Style;
+			targetProxy = CB246B7E1253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+		CB246B811253D0E700E1F738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UINavigator;
+			targetProxy = CB246B801253D0E700E1F738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YouTubeCells_Prefix.pch;
+				INFOPLIST_FILE = "YouTubeCells-Info.plist";
+				PRODUCT_NAME = YouTubeCells;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YouTubeCells_Prefix.pch;
+				INFOPLIST_FILE = "YouTubeCells-Info.plist";
+				PRODUCT_NAME = YouTubeCells;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Karl Monaghan (9UK6HQ9N49)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../three20/Build/Products/three20;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDA9F9A7-1E8C-4B60-B629-D8F5FAFCA348";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YouTubeCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "YouTubeCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
