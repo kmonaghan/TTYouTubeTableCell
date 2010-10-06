@@ -28,26 +28,33 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
+const CGFloat    kYouTubeCellHeight = 105;
+const CGFloat    kYouTubeCellWidth = 140;
+
 #import "YoutubeTableCell.h"
 #import "YoutubeTextItem.h"
 #import <Three20UI/UIViewAdditions.h>
 
 @implementation YoutubeTableCell
 
+///////////////////////////////////////////////////////////////////////////////////////////////////  
 + (CGFloat)tableView:(UITableView*)tableView rowHeightForObject:(id)object {
-	return 105 + kTableCellVPadding*2;
+	return kYouTubeCellHeight + kTableCellVPadding*2;
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////  
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)identifier {  
-    if (self = [super initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:identifier]) {  
-        _item = nil;  
-		
-		_youtubeView = [[TTYouTubeView alloc] initWithFrame:CGRectMake(5,5,140,105)];  
+    if (self = [super initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:identifier]) {  		
+		_youtubeView = [[TTYouTubeView alloc] initWithFrame:CGRectMake(kTableCellHPadding,
+																	   kTableCellVPadding,
+																	   kYouTubeCellWidth,
+																	   kYouTubeCellHeight)];  
         [self.contentView addSubview:_youtubeView]; 
     }  
     return self;  
 }  
 
+///////////////////////////////////////////////////////////////////////////////////////////////////  
 - (void)dealloc {  
     TT_RELEASE_SAFELY(_youtubeView);  
 
@@ -59,15 +66,18 @@
 
 - (void)layoutSubviews {  
     [super layoutSubviews];  
-	UIView* test = (UIView *)self.contentView;
+	UIView* cv = (UIView *)self.contentView;
+
+	CGFloat innerWidth = cv.width - ((kTableCellHPadding * 4) + kYouTubeCellWidth);
+	CGFloat innerHeight = cv.height - kTableCellVPadding * 2;
 	
-	CGFloat innerWidth = test.width - (kTableCellHPadding*2 + 152);
-	CGFloat innerHeight = test.height - kTableCellVPadding*2;
-	
-	self.textLabel.frame = CGRectMake(kTableCellHPadding + 152, kTableCellVPadding,
+	self.textLabel.frame = CGRectMake((kTableCellHPadding * 2) + kYouTubeCellWidth, kTableCellVPadding,
 									  innerWidth, innerHeight);
 
-	_youtubeView.frame = CGRectMake(5,5,140,105);
+	_youtubeView.frame = CGRectMake(kTableCellHPadding,
+									kTableCellVPadding,
+									kYouTubeCellWidth,
+									kYouTubeCellHeight);
   	
 }  
 
@@ -83,12 +93,7 @@
     if (_item != object) {  
         [super setObject:object];  
 		
-		self.textLabel.font = TTSTYLEVAR(tableFont);
-		self.textLabel.textAlignment = UITextAlignmentLeft;
-		
         YoutubeTextItem* item = object;  
-		
-		NSLog(@"item.urlPath: %@", item.urlPath);
 		
 		[_youtubeView setUrlPath:item.urlPath];  
     }  

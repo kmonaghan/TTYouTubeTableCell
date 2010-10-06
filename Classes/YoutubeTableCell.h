@@ -30,7 +30,6 @@
 
 #import <Three20UI/TTYouTubeView.h>
 #import <Three20UI/TTTableTextItemCell.h>
-#import "YoutubeTextItem.h"
 
 @interface YoutubeTableCell : TTTableTextItemCell {
 	TTYouTubeView* _youtubeView;
